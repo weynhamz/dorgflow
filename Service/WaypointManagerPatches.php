@@ -49,7 +49,7 @@ class WaypointManagerPatches {
 
       // Skip a file that is set to not be displayed.
       if (!$file_field_item->display) {
-        continue;
+//        continue;
       }
 
       $fid = $file_field_item->file->id;
